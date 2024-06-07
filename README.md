@@ -13,7 +13,7 @@ Este projeto visa monitorar a qualidade da água utilizando sensores de condutiv
 ## Requisitos
 
 - Arduino (qualquer modelo compatível)
-- Sensores:
+- Sensores (Simulados por potenciômetros):
   - Sensor de Condutividade (EZO-EC)
   - Sensor de Turbidez (SEN0189)
   - Sensor de pH (SEN0161)
@@ -69,14 +69,6 @@ Este projeto visa monitorar a qualidade da água utilizando sensores de condutiv
    - Vermelho: Condições críticas
 
 3. Os valores de condutividade, turbidez e pH serão armazenados na EEPROM se estiverem fora dos limites pré-definidos.
-
-## Contribuição
-
-1. Faça um fork do projeto.
-2. Crie uma nova branch com sua funcionalidade (`git checkout -b feature/nova-funcionalidade`).
-3. Faça o commit das suas alterações (`git commit -m 'Adiciona nova funcionalidade'`).
-4. Envie para o repositório remoto (`git push origin feature/nova-funcionalidade`).
-5. Abra um Pull Request.
 
 ## Simulação
 
